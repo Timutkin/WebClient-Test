@@ -1,4 +1,8 @@
 package ru.timutkin.testwebclient.service;
 
-public class UserService {
+import reactor.core.publisher.Mono;
+import ru.timutkin.testwebclient.dto.User;
+
+public interface UserService {
+    Mono<User> getUserByIdAsync();
 }
