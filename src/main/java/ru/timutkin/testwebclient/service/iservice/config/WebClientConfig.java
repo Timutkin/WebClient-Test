@@ -1,4 +1,4 @@
-package ru.timutkin.testwebclient.config;
+package ru.timutkin.testwebclient.service.iservice.config;
 
 import io.netty.channel.ChannelOption;
 import io.netty.handler.timeout.ReadTimeoutHandler;
